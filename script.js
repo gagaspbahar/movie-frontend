@@ -8,14 +8,19 @@ function getData(){
 }
 
 function renderMovieList(json){
+    
     json.forEach(mov =>{
-        document.getElementById("movieRating").innerHTML = mov.rating
-        document.getElementById("movieThumbnail").src = mov.img
-        document.getElementById("movieTitle").innerHTML = mov.title + " (" + mov.release + ")"
-        document.getElementById("movieTitle").href = mov.link
-        document.getElementById("movieGenre").innerHTML = mov.genre
-        document.getElementById("movieDesc").innerHTML = mov.synopsis
+        var list = document.getElementById("movie");
+        var listClone = list.cloneNode(true);
+        listClone.getElementsByClassName("movieRating")[0].innerHTML = mov.rating
+        listClone.getElementsByClassName("movieThumbnail")[0].src = mov.img
+        listClone.getElementsByClassName("movieTitle")[0].innerHTML = mov.title + " (" + mov.release + ")"
+        listClone.getElementsByClassName("movieTitle")[0].href = mov.link
+        listClone.getElementsByClassName("movieGenre")[0].innerHTML = mov.genre
+        listClone.getElementsByClassName("movieDesc")[0].innerHTML = mov.synopsis
+        document.body.appendChild(listClone)
     })
+
 }
 
 
