@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Gifted",
+        "release": 2017,
+        "genre": "Drama/Comedy-drama",
+        "rating": 7.6,
+        "synopsis": "Frank, a single man raising his genius niece, Mary, gets into a legal battle with his mother, Evelyn, over her custody. However, Evelyn will do anything to make Mary complete her mother's project.",
+        "link": "https://www.imdb.com/title/tt4481414/",
+        "img": "./img/gifted.jpg"
+    },
+    {
+        "title": "Gifted",
+        "release": 2017,
+        "genre": "Drama/Comedy-drama",
+        "rating": "7.6",
+        "synopsis": "Frank, a single man raising his genius niece, Mary, gets into a legal battle with his mother, Evelyn, over her custody. However, Evelyn will do anything to make Mary complete her mother's project.",
+        "link": "https://www.imdb.com/title/tt4481414/",
+        "img": "./img/gifted.jpg"
+    }
+]

@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <title>Movies</title>
 </head>
 <body>
-    
+    <section class="head" id="home">
+        <h1 class='section__title--head'>
+            <strong>Recommended Movie List</strong>
+        </h1>
+        <p class="section__subtitle--head">
+            Handpicked with ❤
+        </p>
+    </section>
+    <div class="page">
+        <div id="movieLists">
+            <div class="movie">
+                <p class="movieRating" id="movieRating">0</p>
+                <img class="movieThumbnail" id="movieThumbnail" src="./img/movie-logo.png">
+                <a class="movieTitle" id="movieTitle">Movie</a>
+                <p class="movieGenre" id="movieGenre">Genre</p>
+                <p class="movieDesc" id="movieGenre">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo iure minima vel cum quibusdam possimus, modi nisi labore totam error nulla iusto? Cum pariatur corporis molestias culpa tenetur magni laudantium.</p>
+
+            </div>
+        </div>
+    </div>
+    <script src= "./script.js"></script>
 </body>
 </html>
