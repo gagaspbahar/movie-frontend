@@ -1,0 +1,54 @@
+:root {
+    --ff-primary: 'Open Sans', sans-serif;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rbga(0,0,0,.25), 0.125em 0.125em 0.25em rgba(0,0,0,.25);
+}
+
+body{
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+section {
+    padding: 3em 2em;
+    background: var(--clr-accent);
+    text-align: center;
+}
+
+.page {
+    margin-left: 2em;
+}
+
+.movie{
+    margin: auto 6em auto 6em;
+    display: block;
+}
+
+
+
+.movieThumbnail{
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+h1{
+    font-size: var(--fs-h1)
+}
